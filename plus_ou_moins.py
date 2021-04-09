@@ -13,7 +13,7 @@ if jeu == "1":
     print("Ton objectif est de trouver le nombre choisis par l'ordianteur avec le moins d'essais possible.")
     print("Bonne Chance !")
     
-    b = int(input("Choisie un nombre compris entre 1 et 100 : "))
+    b = int(input("Choisi un nombre compris entre 1 et 100 : "))
     essais = 0
     
     while b != mystery_number:
@@ -37,7 +37,7 @@ if jeu == "2":
     print("Ton objectif est de trouver le nombre choisis par l'ordianteur en 5 essais.")
     print("Bonne Chance !")
     
-    b = int(input("Choisie un nombre compris entre 1 et 100 : "))
+    b = int(input("Choisi un nombre compris entre 1 et 100 : "))
     max_try = 4
 
     while b != mystery_number:
