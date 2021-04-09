@@ -13,6 +13,8 @@ L'ordinateur choisis un nombre entre 1 et 100 et le joueur doit trouver le nombr
 Début de la création d'un jeu utilisant la recherche dicotomique.
 Language utiliser : python.
 
+[plus_ou_moins.py](plus_ou_moins.py)
+
 
 - Jour n°2:
 
