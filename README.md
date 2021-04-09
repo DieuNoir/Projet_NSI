@@ -4,7 +4,8 @@
 
 ## Description
 
-L'ordinateur choisis un nombre entre 1 et 100 et le joueur doit trouver le nombre choisis par l'ordianteur en utilisant le pincipe de la recherche dicotomique
+L'ordinateur choisis un nombre entre 1 et 100 et le joueur doit trouver le nombre choisis par l'ordinateur en utilisant le pincipe de la recherche dicotomique.
+Si le nombre donné par le joueur est plus petit que le nombre choisis l'ordinateur renverra 'plus grand' inversement si le nombre choisis est trop grand l'ordinateur renverra 'plus petit'. Quand le joueur aura trouvé le nombre mysytère (-> nombre choisis par l'ordianteur), l'ordinateur renverra le nombre d'essais du joueur + son nom.
 
 ## Cahier journal
 
@@ -31,9 +32,12 @@ Tentative d'ajout d'un tableux de score en python.
 
 Création d'une base de donné en SQLITE pour les scores, Nom et le nombre mystère à trouver.
 
+```sql
 sqlite> CREATE TABLE IF NOT EXISTS score ("ID" INTEGER PRIMARY KEY, "Nom" TEXT, "Nbr_essais" INTEGER, "Nbr_mystère" TEXT);
+```
 
 Mise en place de l'ajout des joueurs en python.
 
-- Jour n°5:
+- Jour n°5 (09/04/2021):
 
+Création d'un compte github, édition du README.md
