@@ -44,8 +44,9 @@ Création d'un compte github, édition du README.md
 
 - Jour n°6 (13/04/2021):
 
-tentative d'utilisation de la fonction `ScoreSQL`.
+Tentative d'utilisation de la fonction `ScoreSQL`.
 
+- Jour n°7 (14/04/2021):
 
-
+Ajout de la ligne `requete01 = "CREATE TABLE IF NOT EXISTS 'Score'('ID' INTEGER PRIMARY KEY, 'Nom' TEXT, 'Essais' INTEGER, 'Nbr mystère' INTEGER);"` dans la fonction `ScoreSQL`.
 
