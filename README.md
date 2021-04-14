@@ -50,3 +50,29 @@ Tentative d'utilisation de la fonction `ScoreSQL`.
 
 Ajout de la ligne `requete01 = "CREATE TABLE IF NOT EXISTS 'Score'('ID' INTEGER PRIMARY KEY, 'Nom' TEXT, 'Essais' INTEGER, 'Nbr mystère' INTEGER);"` dans la fonction `ScoreSQL`.
 
+```sql
+tgnsi_francois@lrg-ESPRIMO-P557:~/Bureau/projet$ sqlite3 score.db
+SQLite version 3.31.1 2020-01-27 19:55:54
+Enter ".help" for usage hints.
+sqlite> .headers ON
+sqlite> .mode column
+sqlite> .schema
+CREATE TABLE score ("ID" INTEGER PRIMARY KEY, "Nom" TEXT, "Nbr_essais" INTEGER, "Nbr_mystère" TEXT);
+sqlite> SELECT * FROM score;
+ID                 Nom         Nbr_essais  Nbr_mystère
+-----------------  ----------  ----------  -----------
+17156204879061976  toto        5           16         
+18342672012615565  ot          6           81         
+32407199022071156  toto        5           16         
+41126071367086791  toto        7           59         
+62199492641392917  toto        7           86         
+sqlite> SELECT * FROM score;
+ID                Nom         Nbr_essais  Nbr_mystère
+----------------  ----------  ----------  -----------
+8789974074496604  jeff        8           83         
+1715620487906197  toto        5           16         
+1834267201261556  ot          6           81         
+3240719902207115  toto        5           16         
+4112607136708679  toto        7           59         
+6219949264139291  toto        7           86         
+```
