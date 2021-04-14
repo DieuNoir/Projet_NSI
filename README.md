@@ -12,7 +12,7 @@ Si le nombre donné par le joueur est plus petit que le nombre choisis l'ordinat
 - Jour n°1 :
 
 Début de la création d'un jeu utilisant la recherche dicotomique.
-Language utiliser : python.
+Language utilisé : python.
 
 [plus_ou_moins.py](plus_ou_moins.py)
 
