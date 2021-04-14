@@ -41,3 +41,11 @@ Mise en place de l'ajout des joueurs en python.
 - Jour n°5 (09/04/2021):
 
 Création d'un compte github, édition du README.md
+
+- Jour n°6 (13/04/2021):
+
+tentative d'utilisation de la fonction `ScoreSQL`.
+
+
+
+
