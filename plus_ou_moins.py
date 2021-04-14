@@ -11,7 +11,7 @@ mystery_number = randint(1, 100)
 if jeu == "1":
     
     print("Ton objectif est de trouver le nombre choisis par l'ordianteur avec le moins d'essais possible.")
-    print("Bonne Chance !")
+    print("Bonne Chance !\n")
     
     b = int(input("Choisi un nombre compris entre 1 et 100 : "))
     essais = 0
@@ -19,12 +19,12 @@ if jeu == "1":
     while b != mystery_number:
         
         if b > mystery_number:
-            print("plus petit")
-            b = int(input("Choisie un nombre compris entre 1 et 100 : "))
+            print("plus petit\n")
+            b = int(input("Choisi un nombre compris entre 1 et 100 : "))
             essais += 1
 
         if b < mystery_number:
-            print("plus grand")
+            print("plus grand\n")
             b = int(input("Choisie un nombre compris entre 1 et 100 : "))
             essais += 1
 
@@ -35,7 +35,7 @@ if jeu == "1":
 if jeu == "2":
     
     print("Ton objectif est de trouver le nombre choisis par l'ordianteur en 5 essais.")
-    print("Bonne Chance !")
+    print("Bonne Chance !\n")
     
     b = int(input("Choisi un nombre compris entre 1 et 100 : "))
     max_try = 4
@@ -43,12 +43,12 @@ if jeu == "2":
     while b != mystery_number:
     
         if b > mystery_number:
-            print("plus petit")
-            b = int(input("Choisie un nombre compris entre 1 et 100 : "))
+            print("plus petit\n")
+            b = int(input("Choisi un nombre compris entre 1 et 100 : "))
             max_try -= 1
 
         if b < mystery_number:
-            print("plus grand")
+            print("plus grand\n")
             b = int(input("Choisie un nombre compris entre 1 et 100 : "))
             max_try -= 1
 
@@ -81,5 +81,7 @@ def ScoreSQL():
     
     curseur.execute(requete)
     print(curseur.fetchall())
+    
+    bdd.commit()
     curseur.close()
     bdd.close()
