@@ -72,7 +72,9 @@ def ScoreSQL():
     bdd = connect("score.db")
     curseur = bdd.cursor()
     
-    requete = "INSERT INTO score Values("
+    requete01 = "CREATE TABLE IF NOT EXISTS 'Score'('ID' INTEGER PRIMARY KEY, 'Nom' TEXT, 'Essais' INTEGER, 'Nbr mystère' INTEGER);"
+    
+    requete = "INSERT INTO Score VALUES("
     requete += str(randint(1, 2**56)) + " , "
     requete += "'" + nom + "' , "
     requete += str(essais) +" , "
