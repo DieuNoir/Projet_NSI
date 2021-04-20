@@ -76,7 +76,7 @@ ID                Nom         Nbr_essais  Nbr_mystère
 4112607136708679  toto        7           59         
 6219949264139291  toto        7           86         
 ```
-réussite de la mise en place d'un tableau de score, mais nécessité d'ouvrir un terminal pour voir le tableau des scores
+réussite de la mise en place d'un tableau de score, mais nécessité d'ouvrir un terminal dans le dossier pour voir le tableau des scores
 
 - Jour n°8 (16/04/2021):
 
