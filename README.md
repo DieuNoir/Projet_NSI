@@ -81,3 +81,11 @@ réussite de la mise en place d'un tableau de score, mais nécessité d'ouvrir u
 - Jour n°8 (16/04/2021):
 
 rédaction du rapport de projet.
+
+- Jour n°9 (20/04/2021):
+
+suite de rédaction du rapport de projet.
+
+- Jour n°10 (21/04/2021):
+
+suite de la rédaction du rapport de projet.
