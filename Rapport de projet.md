@@ -50,7 +50,7 @@ J'ai bien apprécier l'idée de faire un projet (qui de base est simple) mais de
 
 ``````python
 from random import *
-from sqlite3 import *	# Importation ddes modules random et sqlite3
+from sqlite3 import *	# Importation des modules random et sqlite3
 
 
 nom = input("Comment t'appelle-tu ? ")	 # On demande le pseudo du joueur
@@ -134,7 +134,7 @@ if jeu == "2":
             break
     
         if max_try == 0:
-            print("RECOMMENCE !!!")n
+            print("RECOMMENCE !!!")
             break
 
 #def score():           # tentative d'une fonction score en python !
@@ -146,104 +146,3 @@ if jeu == "2":
 #    for i in [x for x in NL if x in SL]:
 #        print(i)
 ``````
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
