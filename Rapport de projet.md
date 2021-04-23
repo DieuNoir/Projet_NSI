@@ -57,7 +57,7 @@ nom = input("Comment t'appelle-tu ? ")	 # On demande le pseudo du joueur
 jeu = input("Il y a deux mode de jeux tape 1 pour le premier et 2 pour le deuxième : ")	# On demande le choix du jeux 
 
 
-mystery_number = randint(1, 100)	# L'ordinateur choisi un nombrte compris sur l'intervalle [1, 100]
+mystery_number = randint(1, 100)	# L'ordinateur choisi un nombre compris sur l'intervalle [1, 100]
 
 def ScoreSQL():
     global nom, essais, mystery_number
