@@ -62,7 +62,7 @@ mystery_number = randint(1, 100)	# L'ordinateur choisi un nombre compris sur l'i
 def ScoreSQL():
     global nom, essais, mystery_number
     bdd = connect("score.db")
-    curseur = bdd.cursor()
+    curseur = bdd.cursor()  # on crée un curseur
     
     requete01 = "CREATE TABLE IF NOT EXISTS 'Score'('ID' INTEGER PRIMARY KEY, 'Nom' TEXT, 'Essais' INTEGER, 'Nbr mystère' INTEGER);"
     
@@ -75,7 +75,7 @@ def ScoreSQL():
     
     curseur.execute(requete01)
     curseur.execute(requete)
-    print(curseur.fetchall())
+    print(curseur.fetchall())   # récupération de l'ensemble des résultats en une seule liste
     
     bdd.commit()
     curseur.close()
