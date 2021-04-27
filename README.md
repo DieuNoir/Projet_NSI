@@ -89,3 +89,7 @@ suite de rédaction du rapport de projet.
 - Jour n°10 (21/04/2021):
 
 suite de la rédaction du rapport de projet.
+
+- Jour n°11 (23/04/2021):
+
+présentation et explication du projet à M. Thérincour
